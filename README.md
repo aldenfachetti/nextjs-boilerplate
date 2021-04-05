@@ -1,4 +1,6 @@
 # This is a [Next.js](https://nextjs.org/) boilerplate.
+lighthouse-boilerplate.png![image](https://user-images.githubusercontent.com/12265786/113521374-7d3d2600-956f-11eb-8a81-792b6d972b85.png)
+
 
 ## What is inside?
 
