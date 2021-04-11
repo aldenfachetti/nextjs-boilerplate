@@ -26,22 +26,49 @@ exports[`<Main /> should render the headings 1`] = `
 }
 
 .c1 {
-  width: 25rem;
+  position: absolute;
+  width: 15rem;
+  top: 0;
+  margin-top: 9rem;
   margin-bottom: 2rem;
+  margin-left: 5rem;
+}
+
+.c1:hover {
+  -webkit-transform: scale(2.2);
+  -ms-transform: scale(2.2);
+  transform: scale(2.2);
+  -webkit-transition: -webkit-transform 0.5s ease-in-out;
+  -webkit-transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 
 .c2 {
   font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 2px #000000;
+  z-index: 1;
+}
+
+.c2:hover {
+  color: #ccff33;
 }
 
 .c3 {
   font-size: 2rem;
   font-weight: 400;
+  text-shadow: 2px 2px 2px #000000;
+  z-index: 1;
+}
+
+.c3:hover {
+  color: #ccff33;
 }
 
 .c4 {
   margin-top: 3rem;
   width: min(50rem,100%);
+  z-index: 1;
 }
 
 <main
@@ -50,12 +77,12 @@ exports[`<Main /> should render the headings 1`] = `
   <img
     alt="Imagem de um átomo simbolizando o icone do ReactJS com um texto ao lado escrito React Avançado"
     class="c1"
-    src="/img/logo.svg"
+    src="/img/logo.png"
   />
   <h1
     class="c2"
   >
-    React Avançado
+    React Boilerplate
   </h1>
   <h2
     class="c3"
@@ -65,7 +92,7 @@ exports[`<Main /> should render the headings 1`] = `
   <img
     alt="Imagem ilustrativa do mascote do GitHub vestido de um astronauta "
     class="c4"
-    src="/img/hero-illustration.svg"
+    src="/img/hero-illustration.png"
   />
 </main>
 `
